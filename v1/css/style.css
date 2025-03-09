@@ -24,3 +24,17 @@ html{
     --scrollbar-thumb-color: #6b6b6b;
     --scrollbar-width: 12px;
 }
+body{
+    background-color: var(--background-dark-color);
+    color: var(--font-light-color);
+}
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+    background-color: var(--background-dark-color);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
