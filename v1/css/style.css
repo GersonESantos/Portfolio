@@ -29,12 +29,19 @@ body{
     color: var(--font-light-color);
 }
 .navegacao{
+    position: fixed;
+    top : 0;
+    background-color: var(--background-dark-color);
+    width: 100%;
+    z-index: 100;
+    padding:  1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 10rem;
-    background-color: var(--background-dark-color);
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 3rem;
 }
